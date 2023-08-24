@@ -1,0 +1,54 @@
+/* style */
+
+#basic-setup {
+	background: #FFF;
+	color: #FFF;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/topbg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-title {
+	font-weight: 700;
+}
+
+.contenu {
+	padding-top: 17%;
+}
+
+.btn {
+	border: 1px solid white;
+	padding: 15px 35px;
+}
+
+.nav-item {
+	font-size: 18px;
+	padding-left: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link:link,
+.navbar-light .navbar-nav .nav-link:visited {
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active {
+	border-bottom: 2px solid #20CC41;
+}
+
+.jumbotron {
+	color: #000;
+}
+
+#footer {
+	color: #000;
+	padding-right: 20px ;
+	text-align: right ;
+}
